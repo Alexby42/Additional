@@ -1,7 +1,7 @@
 import wikipedia, re
 from aiogram import Bot, Dispatcher, executor
 from aiogram.contrib.fsm_storage.memory import MemoryStorage
-api = '7220117180:AAHsQ-bNT1ZtwbLb2z6SUiLjpahzmCfvwI8'
+api = 'API Key'
 bot = Bot(token=api)
 dp = Dispatcher(bot, storage=MemoryStorage())
 wikipedia.set_lang("ru")
